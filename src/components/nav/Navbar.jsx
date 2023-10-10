@@ -52,6 +52,12 @@ const Navbar = () => {
                 About Us
               </Link>
               <Link
+                to="/gallery"
+                class="mr-5 text-xl text-black hover:text-blue-500"
+              >
+                Gallery
+              </Link>
+              <Link
                 to="/contact"
                 class="mr-5 text-xl text-indigo-700 hover:text-black"
               >

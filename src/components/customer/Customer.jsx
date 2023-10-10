@@ -20,6 +20,7 @@ const Customer = () => {
                     <input
                       type="text"
                       placeholder="John Doe"
+                      required
                       class="block w-full px-5 py-3 mb-4 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
                   </div>
@@ -30,6 +31,7 @@ const Customer = () => {
                     <input
                       type="phone"
                       placeholder="Phone"
+                      required
                       class="block w-full px-5 py-3 mb-4 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
                   </div>
@@ -41,13 +43,25 @@ const Customer = () => {
                     <input
                       type="email"
                       placeholder="johndoe@example.com"
+                      required
+                      class="block w-full px-5 py-3 mb-4 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    />
+                  </div>
+                  <div class="flex-1">
+                    <label class="block mb-3 text-sm text-gray-600 dark:text-gray-200">
+                      Address
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Address"
+                      required
                       class="block w-full px-5 py-3 mb-4 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
                   </div>
 
                   <div class="w-full mt-6">
                     <label class="block mb-3 text-sm text-gray-600 dark:text-gray-200">
-                      Message
+                      Description
                     </label>
                     <textarea
                       class="block w-full h-32 px-5 mb-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"

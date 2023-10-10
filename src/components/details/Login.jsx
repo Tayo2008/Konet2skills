@@ -9,7 +9,7 @@ const Login = () => {
             <div class="flex items-center justify-center mt-6">
               <a
                 href="#"
-                class="w-1/3 pb-4 font-medium text-center text-gray-800 capitalize border-b-2 border-blue-500 dark:border-blue-400 dark:text-white"
+                class="w-1/3 pb-4 font-medium text-center text-gray-800 capitalize border-b-2 border-blue-500 dark:border-blue-400 dark:text-white m-6"
               >
                 sign in
               </a>
@@ -18,7 +18,7 @@ const Login = () => {
                 href="/details"
                 class="w-1/3 pb-4 font-medium text-center text-gray-800 capitalize border-b-2 border-blue-500 dark:border-blue-400 dark:text-white"
               >
-                Registration your skills
+                Register your skill
               </a>
             </div>
 
@@ -77,8 +77,16 @@ const Login = () => {
                 Submit
               </button>
             </div>
-            <div class="mt-6">
+            <div class="mt-6 pl-2">
               <a>Forgotting Password</a>
+            </div>
+            <div class="mt-6 mb-6 text-center">
+              <a
+                href="/details"
+                class="text-sm text-blue-500 hover:underline dark:text-blue-400"
+              >
+                i don't have account?
+              </a>
             </div>
           </form>
         </div>
